@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Main screen styling */
+#main-screen {
+    background-image: url('assets/main-background.jpg');
+    background-size: cover; /* Makes the background cover the entire element */
+    background-position: center; /* Centers the background image */
+    height: 100vh; /* Makes the screen take the full height of the viewport */
+    display: flex; /* Allows centering of children elements */
+    align-items: center; /* Vertically centers the start button */
+    justify-content: center; /* Horizontally centers the start button */
+}
+
+/* Styling for the start button */
+#start-button {
+    padding: 05px 150px; /* Adjusted padding to make it bigger */
+    font-size: 50px; /* Adjusted font size */
+    cursor: pointer;
+    background-color: lightblue; /* Optional background color */
+    border: none; /* Removes default button border */
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+#start-button:hover {
+    background-color: deepskyblue; /* Changes color on hover */
+}
+
+/* Game screen styling */
+#game-screen {
+    background-image: url('assets/game-background.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full height */
+    display: flex; /* Allows flex properties */
+    flex-direction: column; /* Aligns children vertically */
+    align-items: center; /* Centers content */
+}
+
+/* Styling for alphabet buttons */
+#alphabet-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.alphabet-button {
+    padding: 40px; /* Adjusted padding */
+    margin: 10px;
+    font-size: 20px; /* Adjusted font size to double the original size */
+    cursor: pointer;
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.alphabet-button:hover {
+    background-color: deepskyblue; /* Changes color on hover */
+}
